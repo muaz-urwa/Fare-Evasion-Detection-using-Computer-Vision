@@ -13,19 +13,21 @@ To test the viability of the proposed approach we have developed a proof of conc
 - The pose data was cleaned and processed in preparation of pose classification. This transforms image of each person into a 14 dimesional latent space.
 - A random forest model was trained for pose classification on 14 dimensional latent space. Results show that in this latent space it is very easy to seperate the walking and jumping people.
 
-Results on static images:
-<img src="jump.png" width = "600">
-<img src="walk.png" width = "600">
+## Results on static images:
 
-Result metrics for test train split of 50%:
+<img src="jump.png" width = "300">
+<img src="walk.png" width = "300">
+
+## Result metrics for test train split of 50%:
+
 <img src="result.png"  width = "800">
 
 ## Demo on Video
 ### Normal Rider
-<img src="urwa_walk.gif" width = "600">
+<img src="urwa_walk.gif" width = "300">
 
 ### Turnstile Jumper
-<img src="urwa_jump.gif" width = "600">
+<img src="urwa_jump.gif" width = "300">
 
 We believe that performance can be improved by:
 - Retraining/Fine-tuning the pose estimation model on labelled MTA surveillance data.
