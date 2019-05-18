@@ -1,10 +1,8 @@
 ## Turnstile Jump Detection:
 [Notebook](https://github.com/muaz-urwa/Projects/blob/master/ComputerVision/PoseEstimation/urwa_TurnstileJumper_demoTest.ipynb)
 
-## Fare evasion in New York
 <img src="fare.png">
 
-## Limitations of current Data Collection
 <img src="limitations.png">
 
 We want to propose a cost effective automated system to measure (rather than estimate) the fare evasion in subways using security camera footage. We believe that most of the turnstiles are covered by security cameras and this footage is recorded and saved on central servers. We propose to create a software pipeline that consumes video data from these servers and uses computer vision to detect turnstile jumpers and record this information in the database. 
